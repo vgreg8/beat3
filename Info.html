@@ -1,14 +1,17 @@
 ﻿<html>
 <head>
 <link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <title> Общая информация </title>
 <style type="text/css">
-
+.container {
+    display: flex;
+}
 
 .textcols-item {
 	white-space: normal;	
 	display: inline-block;
-	width: 44%;
+	width: 50%;
 	border-width: 20px;
     border-style: outset;
     border-color: #9370DB;
@@ -44,32 +47,35 @@
  <a   href=Shop.html>Заказать Альбом</a>
  <a   href=Contacts.html>Контакты</a></b>
   </div>
-</div>
-
- 
- <font size="+4"><h1>Общая информация</h1></font>
+  </div>
+ <img src="Beatles.png" style="width:10%" align="left">
+  <font size="+4"><h1>Общая информация</h1></font>
 </header>
 <div id="panorama"><IMG  src="Panorama.png" alt="Panorama.png" width=100% height=100%></div>
 
 <main>
 
-<h2><font size="+3">
+<font size="+3"><h2>
 <br><strong>Название:</strong> "The Beatles" ("Битлз";отдельно участников ансамбля называт "битлами")</br>
 <br><strong>Страна:</strong>Великобритания (г.Ливерпуль)</br> 
 <br><strong>Годы:</strong> 1960-1970</br>
-<br><strong>Состав группы</strong>(те, кого весь мир знает как The Beatles):</br></h2>
-  <section>
+<br><strong>Состав группы</strong>(те, кого весь мир знает как The Beatles):</br></h2></font>
+
+<div class="container">
 
     <article class="textcols-item">
 <h3>1. Джон Ленон</h3>
 <p><IMG src="Джон Леннон.jpg" class="fig">Джон Ленон<br>(ритм-гитара, соло-гитара, клавишные, бубен, маракасы, бас-гитара, губная гормошка, вокал)</p>
 	</article>
 	
+
 	<article class="textcols-item">
 <h3>2. Пол Макартни</h3>
 <p><IMG src="Пол.jpg" class="fig"> Пол Макартни<br>(бас-гитара,клавишные, ударные, гитара, вокал)</p> 
 	</article>
-     
+    </div>
+	 
+	 <div class="container">
 	<article class="textcols-item">
 <h3>3. Джордж Харрисон</h3>
 <p><IMG src="Харисон.jpg" class="fig"> Джордж Харрисон<br>(соло-гитара, ритм-гитара, ситар, бубен, клавишные, вокал)</p> 
@@ -79,7 +85,7 @@
 <h3>4. Ринго Стар</h3>
 <p><IMG src="Ринго.jpg"  class="fig"> Ринго Стар<br>(ударные, ритм-гитара, бубен, маракасы, коубелл, бонги, клавишные, вокал)</p>
 	</article>
-	</section>
+	</div>
 
 <p><br>  Также в разное время в составе группы выступали:</p>
 <ol start="5">
@@ -91,7 +97,15 @@
 </main>
  
 
- <footer><center><HR width=50% size=3 color=green><font face=Arial size=1 > &copy; Все права защищены. </font></center></footer>
+ <footer>
+ <div class="icon-bar">
+  <a class="active" href="index.html"><i class="fa fa-home"></i></a> 
+  <a href="#"><i class="fa fa-search"></i></a> 
+  <a href="https://www.thebeatles.com/films"><i class="fa fa-globe"></i></a>
+  <a href="mailto:vgregl@rambler.ru?&subject=Beatles&body=Привет"><i class="fa fa-envelope"></i></a> 
+  <a href="https://t.me/ZvezdichevOfficialbot"><i class="fa fa-telegram"></i></a> 
+</div>
+<center><HR width=50% size=3 color=green><font face=Arial size=1 > &copy; Все права защищены. </font></center></footer>
    
 </body>
 </html>
