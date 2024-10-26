@@ -1,4 +1,7 @@
-	body{
+@viewport {
+	width: 1024px;
+}
+body{
   display: block;
   background: #fff;
 }
