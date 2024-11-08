@@ -26,12 +26,12 @@ h2,h3{ font-family: Modern, Monotype Corsiva; color: MediumSlateBlue}
 p,li{text-align: justify; font-family: Arial, sans-serif; color: blue}
 a { text-align: center; font-family: Modern, Monotype Corsiva; color: LightCyan}
 
-h2 {
-  font-size: calc(1rem + 2vw);
-}
+h1 {
+    font-size: 3vw; /* Размер заголовка */
+   }
 div {
-  font-size: calc(14px + 1vw);
-}
+    font-size: 2vw; /* Размер текста */
+   }
 
 #panorama {
     width: 100%;
