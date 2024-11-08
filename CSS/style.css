@@ -26,7 +26,7 @@ h2,h3{ font-family: Modern, Monotype Corsiva; color: MediumSlateBlue}
 p,li{text-align: justify; font-family: Arial, sans-serif; color: blue}
 a { text-align: center; font-family: Modern, Monotype Corsiva; color: LightCyan}
 
-h1 {
+h1, h2 {
     font-size: 4vw; /* Размер заголовка */
    }
 div {
